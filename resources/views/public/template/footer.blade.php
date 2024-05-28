@@ -1,1 +1,1 @@
-<p>Copyright © {{ date('Y') }}. All Dights Reserved.</p>
+<p>Copyright © {{ date('Y') }}. All Rights Reserved.</p>
