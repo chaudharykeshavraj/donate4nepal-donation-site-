@@ -47,7 +47,7 @@ class HomeController extends Controller
         return self::sendResponse($data,$message);
     }
 
-    public function about()
+    public function whatwedo()
     {
         $data['title'] = 'Whatwedo Page';
         $data['users'] = User::all();
@@ -58,15 +58,15 @@ class HomeController extends Controller
     {
         $data['title'] = ucfirst('Get Involved');
         $limit = 30;
-        $data['getinvolved'] = $this->user->getinvolvedAll($limit);
+        // $data['getinvolved'] = $this->user->getinvolvedAll($limit);
         return view('public.home.getinvolved', $data);
     }
-    
+
     public function shopAll()
     {
         $data['title'] = 'Shop Merch';
         $limit = 30;
-        $data['shop'] = $this->user->shopAll($limit);
+        // $data['shop'] = $this->user->shopAll($limit);
         return view('public.home.shop', $data);
     }
     public function contact()
@@ -74,7 +74,7 @@ class HomeController extends Controller
         $data['title'] = 'Contact';
         return view('public.home.contact', $data);
     }
-    
+
     public function contactAction(Request $request)
     {
         if($request->isMethod('post')){

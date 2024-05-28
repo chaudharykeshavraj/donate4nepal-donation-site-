@@ -1,4 +1,4 @@
-<?php 
+<?php
 use App\Models\User;
 $cmsObj = new User();
 ?>
@@ -15,10 +15,10 @@ $cmsObj = new User();
 
 @section('content')
 <section class="section main-banner" id="top" data-section="section1">
-    
+    this is home page
     <div class="footer">@include('public/template/footer')</div>
 </section>
-  
+
 
 @endsection
 
