@@ -15,7 +15,9 @@ $cmsObj = new User();
 
 @section('content')
 <section class="section main-banner" id="top" data-section="section1">
-    this is home page
+    <image id="bg-image">
+        <img src="{{ asset('frontend/assets/images/home-banner.jpg') }}" alt="Home Banner">
+    </image>
 
 </section>
 
