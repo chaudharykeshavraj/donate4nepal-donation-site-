@@ -1,0 +1,29 @@
+header{
+    background-color: #074444;
+    color: white;
+    padding: 0px 20px;
+    text-align: center;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #074444;
+    /* background-size: 200% 100%; */
+}
+
+/* .container-expand{
+    max-width: none;
+    margin: 0 auto;
+} */
+
+.nav a{
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover{
+    color: #c800ff;
+}
