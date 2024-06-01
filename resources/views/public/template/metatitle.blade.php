@@ -15,7 +15,9 @@
     {{-- <link rel="stylesheet" href="{{ asset('frontend/assets/css/templatemo-edu-meeting.css') }}"> --}}
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/owl.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/lightbox.css"') }}">
-    <link rel="stylesheet" href="{{ asset('frontend/assets/css/custom.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/custom_header.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/custom_footer.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/custom_home.css') }}">
 
     @yield('meta_data')
     @yield('css')
