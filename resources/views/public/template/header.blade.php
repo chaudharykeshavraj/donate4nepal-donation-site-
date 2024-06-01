@@ -5,7 +5,7 @@
                 <nav class="main-nav fixed-top">
                     <div class="navbar-left">
                         <a href="{{ route('home') }}" class="logo">
-                            <img src="{{ asset('frontend/assets/images/logo.png') }}" width="120 px" alt="Logo">
+                            <img src="{{ asset('frontend/assets/images/logo.png') }}" left="20%" width="120 px" alt="Logo">
                         </a>
                     </div>
 

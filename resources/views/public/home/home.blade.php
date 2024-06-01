@@ -15,20 +15,14 @@ $cmsObj = new User();
 
 @section('content')
 <section class="section main-banner" id="top" data-section="section1">
-    <image id="bg-image">
-        <img src="{{ asset('frontend/assets/images/bg-image.jpg') }}" style="opacity:0.65;"  width="1472.8 px"   type="image/jpg" alt="Home Banner">
-    </image>
-    <div class="image-overlay header-text">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="caption">
-                        <h2>Nonprofit organization championing <span style="color:yellow;">textile reuse</span> to fund sustainable change</h2>
+     <div class="container">
+        <div class="row">
+            <div class="col">
+                <div class="image-container">
+                    <img src="{{ asset('frontend/assets/images/bg-image.jpg') }}" width="1472.8" height="auto" alt="Home Banner">
+                    <div class="fade-in-text">
+                        <h1>Nonprofit organization championing <span1>textile reuse</span1> to fund sustainable change</h1>
                         <p>We are a nonprofit organization collecting used clothes to protect the environment and strengthen communities.</p>
-
-                        <div class="main-button-red">
-                            <div class="scroll-to-section"><a href="#contact">Donate Today</a></div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -37,8 +31,14 @@ $cmsObj = new User();
 </section>
 
 <section>
+    
+</section>
+
+<section>
     <div class="footer">@include('public/template/footer')</div>
 </section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 
 @endsection
