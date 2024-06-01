@@ -24,7 +24,7 @@ img {
     background-color: rgba(0, 0, 0, 0.3); /* Transparent background for text */
     padding: 30px;
     border-radius: 5px;
-    animation: fadeIn 1s;
+    animation: fadeIn 1.2s;
 }
 
 

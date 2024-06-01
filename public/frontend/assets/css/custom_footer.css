@@ -1,9 +1,12 @@
 footer{
     background-color: #074444;
     color: white;
-    padding: 30px;
+    padding-top: 35px;
+    padding-bottom: 15px;
+    padding-left: 60px;
     text-align: left;
     position: relative;
+    line-height: 0.8cm;
 }
 
 .footer a{

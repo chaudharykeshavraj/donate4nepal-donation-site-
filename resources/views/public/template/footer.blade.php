@@ -30,11 +30,11 @@
                     <div class="col-lg-10 col-md-20 col-sm-20">
                         <div class="footer-widget">
                             <h3 class="footer-title">About Us</h3>
-                            <p>Our mission is to provide a platform for people to donate clothes to the less fortunate. We believe that everyone deserves to have clothes on their back and we are here to make that happen.</p>
+                            <p style="text-align:justify;">Our mission is to provide a platform for people to donate clothes to the less fortunate. We believe that everyone deserves to have clothes on their back and we are here to make that happen.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="col-lg-3 col-md-6 col-sm-6" style="padding-left:50px">
                     <div class="footer-widget">
                         <h3 class="footer-title">Useful Links</h3>
                         <ul class="list-unstyled">
