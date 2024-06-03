@@ -13,7 +13,7 @@
                         <ul class="nav">
                             <!-- <li class="scroll-to-section"><a href="#top" class="active">HOME</a></li> -->
                             <li>
-                                <a href="#top" class="active">HOME</a>
+                                <a href="#top" "{{ route('home') }}" class="active">HOME</a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#home" aria-controls="home" aria-expanded="false" aria-label="Toggle navigation">
                             </li>
                             <li>

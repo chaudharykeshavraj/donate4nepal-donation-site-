@@ -14,6 +14,7 @@ $cmsObj = new User();
 @endsection
 
 @section('content')
+
 <section class="section main-banner" id="top" data-section="section1">
     <img src="{{ asset('frontend/assets/images/bg.jpg') }}" alt="Home Banner">
      <div class="container">
