@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/custom_footer.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/custom_home.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/counter.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/assets/css/contact.css') }}">
 
     <link rel="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" rel="stylesheet">
