@@ -4,6 +4,7 @@
 <script src = "{{ asset('frontend/assets/js/owl-carousel.js') }}"></script>
 <script src = "{{ asset('frontend/assets/js/lightbox.js') }}"></script>
 <script src = "{{ asset('frontend/assets/js/tabs.js') }}"></script>
+<script src = "{{ asset('frontend/assets/js/custom.js') }}"></script>
 <script>
     //according to loftblog tut
     $('.nav li:first').addClass('active');

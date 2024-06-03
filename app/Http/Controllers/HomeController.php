@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Auth;
 use App\Models\User;
+use App\Models\Cloth;
+use App\Models\Fund;
+use App\Models\Years;
 use Illuminate\Support\Facades\Validator;
 use App\Http\Requests;
 use App\Http\Controllers\Controller;
@@ -24,11 +27,14 @@ class HomeController extends Controller
     public function index()
     {
         $data['title'] = 'Home Page';
+        // $cloth_count = Cloth::count();
+        // $fund_count = Fund::count();
+        // $year_count = Years::count();
         $limit = 4;
         // $data['whatwedo'] = $this->user->whatwedoAll($limit);
         // $data['getinvolved'] = $this->user->getinvolvedAll($limit);
         // dd($data['whatwedo']);
-        return view('public.home.home', $data);
+    return view('public.home.home', $data /*, cloth_count, fund_count, year_count */);
     }
 
     public static function sendResponse($result, $message)

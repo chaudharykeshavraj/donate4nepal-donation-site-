@@ -1,20 +1,20 @@
-.image-container {
+/* .image-container {
     position: relative;
-    display: inline-block;
-    opacity: 0.8;
+    display: inline-flexbox;
+    opacity: 1;
+} */
+.main-banner>img {
+    position: relative;
+    display: inline;
+    opacity: 1;
 }
 span1 {
     color: rgb(197, 222, 39)
 }
 
-img {
-    max-width: 100%;
-    height: auto;
-  }
-
 .fade-in-text {
     position: absolute;
-    width: 50%;
+    width: 45%;
     top: 60%;
     left: 35%;
     transform: translate(-50%, -60%);
@@ -24,14 +24,14 @@ img {
     background-color: rgba(0, 0, 0, 0.3); /* Transparent background for text */
     padding: 30px;
     border-radius: 5px;
-    animation: fadeIn 1.2s;
+    animation: fadeIn 1s;
 }
 
 
 @keyframes fadeIn {
     from {
         opacity: 0;
-        transform: translate(-50%, -50%);
+        transform: translate(-50%, -15%);
     }
     to {
         opacity: 1;
@@ -39,9 +39,66 @@ img {
     }
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .fade-in-text {
        font-size: 20px;
        padding: 10px;
     }
+} */
+
+.heading-accent--small-width {
+    padding-bottom: .9rem;
+    padding-top: 125px;
+    position: relative;
+
+}
+.subheading {
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+    line-height: 1.75;
+    margin-bottom: 1.5rem;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+    color: #47536b;
+}
+h2 {
+    /* font-size: 30px; */
+    color: #0a3359;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    padding-bottom: 25px;
+    text-decoration: none;
+    line-height: 1.25;
+    margin: 0 0 .75rem;
+    word-break: break-word;
+}
+
+p1 {
+    font-size: 1.6rem;
+    line-height: 1.75;
+    margin-bottom: 1.5rem;
+    color: #47536b;
+}
+.mission {
+    padding-bottom: 125px;
+}
+
+.counter-section span.counter { font-size:40px; color:#000; line-height:60px; display:block; font-family: "Oswald",sans-serif; letter-spacing: 2px}
+.counter-title{ font-size:12px; letter-spacing:2px; text-transform: uppercase}
+.counter-icon {top:25px; position:relative}
+.counter-style2 .counter-title {letter-spacing: 0.55px; float: left;}
+.counter-style2 span.counter {letter-spacing: 0.55px; float: left; margin-right: 0px;}
+.counter-style2 i {float: right; line-height: 26px; margin: 00 px 0 0}
+.counter-subheadline span {float: right;}
+
+.medium-icon {
+    font-size: 40px !important;
+    margin-bottom: 15px !important;
 }
