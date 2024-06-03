@@ -99,7 +99,7 @@ $cmsObj = new User();
                         <form id="contact" action="" method="post">
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <h2>Let's get in touch</h2>
+                                    <h2>Contact Us</h2>
                                 </div>
                                 <div class="col-lg-12">
                                     <fieldset>
