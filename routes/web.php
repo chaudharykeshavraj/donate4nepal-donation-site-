@@ -3,6 +3,7 @@
 use App\Http\Controllers\AdminController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\DonationController;
 use Illuminate\Support\Facades\Route;
 
 // Route::get('/', function () {
@@ -18,6 +19,8 @@ Route::get('contact',[HomeController::class,'contact'])->name('contact');
 Route::get('donate',[HomeController::class,'donate'])->name('donate');
 Route::get('giveclothes',[HomeController::class,'giveclothes'])->name('giveclothes');
 Route::get('contact-action',[HomeController::class,'ContactAction'])->name('contact.action');
+Route::post('donate',[DonationController::class,'index'])->name('donate.submit');
+
 
 // Route::get('/dashboard', function () {
 //     return view('dashboard');

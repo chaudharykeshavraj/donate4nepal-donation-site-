@@ -157,3 +157,8 @@ section.donate {
       right: auto;
     }
   }
+
+  section.giveclothes {
+    position: relative;
+    padding-top: 100px;
+  }

@@ -38,7 +38,7 @@
                     <div class="navbar-right">
                         <ul class="nav">
                             <li>
-                                <a class="navbar-brand" href="#">GIVE CLOTHES</a>
+                                <a class="navbar-brand" href="{{ route('giveclothes') }}">GIVE CLOTHES</a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#giveclothes" aria-controls="giveclothes" aria-expanded="false" aria-label="Toggle navigation">
                             </li>
                             <li>
