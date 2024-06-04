@@ -14,9 +14,9 @@ $cmsObj = new User();
 @endsection
 
 @section('content')
-<link rel="stylesheet" href="{{ asset('frontend/assets/css/contact.css') }}">
 
-<header class="header-area header-sticky">
+<section>
+    <header class="header-area header-sticky">
     <div id="container-fluid">
         <div class="container-expand">
             <div class="col-12">
@@ -71,77 +71,7 @@ $cmsObj = new User();
         </div>
     </div>
 </header>
-
-<section class="contact-us" id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-9 align-self-center">
-            <div class="row">
-                <div class="col-lg-12">
-                {{ Html()->Form('POST', route('contact.action'))->id('contact')->class('')->open() }}
-                    <div class="row">
-                    <div class="col-lg-12">
-                        <h2>Contact Us</h2>
-                    </div>
-                    <div class="col-lg-4">
-                        <h4>Your Name</h4>
-                        <fieldset>
-                            <input name="name" type="text" id="name" placeholder="YOURNAME...*" required>
-                        </fieldset>
-                    </div>
-                    <div class="col-lg-4">
-                        <h4>Email Address</h4>
-                        <fieldset>
-                            <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL..." required="">
-                        </fieldset>
-                    </div>
-                    <div class="col-lg-4">
-                        <h4>Subject</h4>
-                        <fieldset>
-                            <input name="subject" type="text" id="subject" placeholder="SUBJECT...*" required="">
-                        </fieldset>
-                    </div>
-                    <div class="col-lg-12">
-                        <fieldset>
-                            <textarea name="message" type="text" class="form-control" id="message" placeholder="YOUR MESSAGE..." required=""></textarea>
-                        </fieldset>
-                    </div>
-                    <div class="col-lg-12">
-                        <fieldset>
-                            <button type="submit" id="form-submit" class="button">SEND MESSAGE NOW</button>
-                        </fieldset>
-                    </div>
-                    </div>
-                {{ Html()->Form()->close() }}
-                </div>
-            </div>
-            </div>
-        <div class="col-lg-3">
-            <div class="right-info">
-                <ul>
-                    <li>
-                        <h6>Phone Number</h6>
-                        <span>9876543210</span>
-                    </li>
-                    <li>
-                        <h6>Email Address</h6>
-                        <span>info@donate4nepal.org</span>
-                    </li>
-                    <li>
-                        <h6>Street Address</h6>
-                        <span>Shankhamul, Kathmandu 44600, Nepal</span>
-                    </li>
-                    <li>
-                        <h6>Website</h6>
-                        <span>donate4nepal.org</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-      </div>
-    </div>
 </section>
-
 
 <section>
     <div class="footer">@include('public/template/footer')</div>

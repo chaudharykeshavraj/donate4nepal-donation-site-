@@ -81,6 +81,18 @@ class HomeController extends Controller
         return view('public.home.contact', $data);
     }
 
+    public function donate()
+    {
+        $data['title'] = 'donate';
+        return view('public.home.donate', $data);
+    }
+
+    public function giveclothes()
+    {
+        $data['title'] = 'giveclothes';
+        return view('public.home.giveclothes', $data);
+    }
+
     public function contactAction(Request $request)
     {
         if($request->isMethod('post')){

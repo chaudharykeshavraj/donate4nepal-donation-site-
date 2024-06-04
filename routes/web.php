@@ -15,6 +15,8 @@ Route::get('whatwedo',[HomeController::class,'whatwedo'])->name('whatwedo');
 Route::get('getinvolved',[HomeController::class,'getinvolved'])->name('getinvolved');
 Route::get('shop',[HomeController::class,'shop'])->name('shop');
 Route::get('contact',[HomeController::class,'contact'])->name('contact');
+Route::get('donate',[HomeController::class,'donate'])->name('donate');
+Route::get('giveclothes',[HomeController::class,'giveclothes'])->name('giveclothes');
 Route::get('contact-action',[HomeController::class,'ContactAction'])->name('contact.action');
 
 // Route::get('/dashboard', function () {
