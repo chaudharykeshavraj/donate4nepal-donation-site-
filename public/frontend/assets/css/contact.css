@@ -1,14 +1,17 @@
 section.contact-us {
-    background-image: url(../images/meetings-bg.jpg);
+    /* background-image: url(../images/meetings-bg.jpg); */
+    /* background-image-; */
     background-position: center center;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 140px 0px 0px 0px;
+    padding: 80px 0px 5px 0px;
+    border: #7a7a7a;
+    border-radius: 20%;
   }
 
-  section.contact-us #contact {
-    background-color: #fff;
+  section.contact-us #contact.row {
+    background-color: #575757;
     border-radius: 20px;
     padding: 40px;
   }
@@ -19,7 +22,7 @@ section.contact-us {
     border-bottom: 1px solid #eee;
     margin-bottom: 40px;
     padding-bottom: 20px;
-    font-size: 22px;
+    font-size: 100px;
     font-weight: 700;
   }
 
@@ -54,10 +57,17 @@ section.contact-us {
     margin-bottom: 30px;
   }
 
+  fieldset {
+    border: none;
+    border-radius: 30%;
+    padding: 30px;
+    margin: 0;
+  }
+
   section.contact-us #contact button {
     font-size: 13px;
     color: #fff;
-    background-color: #a12c2f;
+    background-color: #074444;
     padding: 12px 30px;
     display: inline-block;
     border-radius: 22px;
@@ -73,7 +83,7 @@ section.contact-us {
   }
 
   section.contact-us .right-info {
-    background-color: #a12c2f;
+    background-color: #074444;
     border-radius: 20px;
     padding: 40px;
   }

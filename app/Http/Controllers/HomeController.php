@@ -68,7 +68,7 @@ class HomeController extends Controller
         return view('public.home.getinvolved', $data);
     }
 
-    public function shopAll()
+    public function shop()
     {
         $data['title'] = 'Shop Merch';
         $limit = 30;

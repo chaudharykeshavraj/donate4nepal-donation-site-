@@ -29,7 +29,7 @@
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#shopmerch" aria-controls="shopmerch" aria-expanded="false" aria-label="Toggle navigation">
                             </li>
                             <li>
-                                <a href="#contact" "{{ route('contact') }}">CONTACT</a>
+                                <a href="{{ route('contact') }}">CONTACT</a>
                                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contact" aria-controls="contact" aria-expanded="false" aria-label="Toggle navigation">
                             </li>
                         </ul>

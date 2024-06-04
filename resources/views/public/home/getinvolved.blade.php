@@ -20,6 +20,10 @@ $cmsObj = new User();
 </section>
 
 <section>
+    
+</section>
+
+<section>
     <div class="footer">@include('public/template/footer')</div>
 </section>
 

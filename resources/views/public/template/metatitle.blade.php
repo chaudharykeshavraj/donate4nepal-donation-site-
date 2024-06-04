@@ -21,9 +21,10 @@
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/counter.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/assets/css/contact.css') }}">
 
-    <link rel="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.bundle.min.js" rel="stylesheet">
-    <link rel="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" rel=""stylesheet>
+    <link href="{{ asset('frontend/assets/js/gmap.js') }} rel="stylesheet">
+    {{-- <link href="{{ asset('frontend/assets/js/form.js') }} rel="stylesheet"> --}}
 
     @yield('meta_data')
     @yield('css')

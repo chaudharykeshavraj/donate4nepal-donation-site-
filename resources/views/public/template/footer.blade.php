@@ -63,11 +63,11 @@
                         <ul class="list-unstyled">
                             <li>
                                 <i class="fas fa-map-marker-alt"></i>
-                                <span>Shankhamul, Kathmandu</span>
+                                <span5>Shankhamul, Kathmandu</span5>
                             </li>
                             <li>
                                 <i class="fas fa-phone-alt"></i>
-                                <span>+977-9876543210</span>
+                                <span5>+977-9876543210</span5>
                             </li>
                         </ul>
                     </div>
