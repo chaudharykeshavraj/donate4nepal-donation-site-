@@ -6,7 +6,7 @@
 .main-banner>img {
     position: relative;
     display: inline;
-    opacity: 0.7;
+    opacity: 1;
 }
 span1 {
     color: rgb(197, 222, 39)
@@ -48,12 +48,12 @@ span1 {
 
 .heading-accent--small-width {
     padding-bottom: .9rem;
-    padding-top: 60px;
+    padding-top: 125px;
     position: relative;
 
 }
 .subheading {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     letter-spacing: 2px;
     font-weight: bold;
     line-height: 1.75;
@@ -64,10 +64,6 @@ span1 {
 
 .text-center {
     text-align: center;
-    color: #47536b;
-}
-.text-left {
-    text-align: left;
     color: #47536b;
 }
 h2 {
@@ -82,11 +78,10 @@ h2 {
     line-height: 1.25;
     margin: 0 0 .75rem;
     word-break: break-word;
-    font-size: xx-large;
 }
 
 p1 {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     line-height: 1.75;
     margin-bottom: 1.5rem;
     color: #47536b;
@@ -107,58 +102,3 @@ p1 {
     font-size: 40px !important;
     margin-bottom: 15px !important;
 }
-
-.findbin {
-    padding-bottom: 60px;
-}
-.bin-image>img {
-    align-content: center;
-
-    border-radius: 60px 0px 0px 60px;
-}
-.bin-image {
-    padding-top: 150px;
-}
-
-
-section.donate {
-    position: relative;
-    padding-top: 50px;
-  }
-
-  section.donate.form-container {
-    display: none;
-    position: absolute;
-    top: 50px; /* Adjust as per your navbar height */
-    right: 10px;
-    background-color: #9e9b9b;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    z-index: 999;
-  }
-
-  section.donate.form-container h2 {
-    margin-top: 0;
-  }
-
-  section.donate.close {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-  }
-
-  /* Media Query for responsiveness */
-  @media screen and (max-width: 600px) {
-    section.donate.form-container {
-      width: 90%;
-      left: 5%;
-      right: auto;
-    }
-  }
-
-  section.giveclothes {
-    position: relative;
-    padding-top: 100px;
-  }
