@@ -68,7 +68,7 @@ class HomeController extends Controller
         return view('public.home.getinvolved', $data);
     }
 
-    public function shopAll()
+    public function shop()
     {
         $data['title'] = 'Shop Merch';
         $limit = 30;
@@ -79,6 +79,18 @@ class HomeController extends Controller
     {
         $data['title'] = 'Contact';
         return view('public.home.contact', $data);
+    }
+
+    public function donate()
+    {
+        $data['title'] = 'donate';
+        return view('public.home.donate', $data);
+    }
+
+    public function giveclothes()
+    {
+        $data['title'] = 'giveclothes';
+        return view('public.home.giveclothes', $data);
     }
 
     public function contactAction(Request $request)
@@ -104,3 +116,5 @@ class HomeController extends Controller
         }
     }
 }
+
+

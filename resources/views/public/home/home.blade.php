@@ -41,10 +41,14 @@ $cmsObj = new User();
                                 environmental and social progress.
                             </span>
                         </h2>
-                        <div>
-                            <p1>When you donate used clothes and shoes in our yellow bins and solar-powered donation centers, you're not just cleaning out your closet; you're also reducing landfill waste, preserving precious resources like water, reducing pollution and pesticides and helping raise funds for community-led programs that promote education, health and wellness, agricultural sustainability and community development.</p1>
-                            <br><br>
-                            <p1>Donate or partner with us today. Together, our small steps can have a big impact.</p1>
+                        <div class="row">
+                            <div class="col-lg-2"></div>
+                            <div class="col-lg-8 text text-center justify-center">
+                                <p1>When you donate used clothes and shoes in our yellow bins and solar-powered donation centers, you're not just cleaning out your closet; you're also reducing landfill waste, preserving precious resources like water, reducing pollution and pesticides and helping raise funds for community-led programs that promote education, health and wellness, agricultural sustainability and community development.</p1>
+                                <br><br>
+                                <p1>Donate or partner with us today. Together, our small steps can have a big impact.</p1>
+                            </div>
+                            <div class="col-lg-2"></div>
                         </div>
                     </div>
                 </div>
@@ -90,48 +94,103 @@ $cmsObj = new User();
     </div>
 </section>
 
-<section class="contact-us" id="contact">
+<section class="findbin" id="find_bin">
     <div class="container">
         <div class="row">
-            <div class="col-lg-9 align-self-center">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <form id="contact" action="" method="post">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <h2>Let's get in touch</h2>
-                                </div>
-                                <div class="col-lg-12">
-                                    <fieldset>
-                                    <input name="name" type="text" id="name" placeholder="YOURNAME...*" required="">
-                                    </fieldset>
-                                </div>
-                                <div class="col-lg-12">
-                                    <fieldset>
-                                    <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL..." required="">
-                                </fieldset>
-                                </div>
-                                <div class="col-lg-12">
-                                    <fieldset>
-                                    <input name="subject" type="text" id="subject" placeholder="SUBJECT...*" required="">
-                                    </fieldset>
-                                </div>
-                                <div class="col-lg-12">
-                                    <fieldset>
-                                    <textarea name="message" type="text" class="form-control" id="message" placeholder="YOUR MESSAGE..." required=""></textarea>
-                                    </fieldset>
-                                </div>
-                                <div class="col-lg-12">
-                                    <fieldset>
-                                    <button type="submit" id="form-submit" class="button">SEND MESSAGE NOW</button>
-                                    </fieldset>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+            <div class="col-lg-6">
+                <label class="subheading heading-accent--small-width pe-link">Find a Donation Bin</label>
+                <h2 class="heading">
+                    <span>
+                        Find a donation bin near you. Donate 4
+                        <br>
+                        Nepal has 100+ bins across the country.
+                    </span>
+                </h2>
+                <div>
+                    <p1>Donate 4 Nepal makes it easy to make a tax deductible donation with 100+ locations in all 7 states of Nepal. Find a used clothing and shoe donation bin near you and drop off the following clean items:
+                    <br><br>
+                    <ul>
+                        <li>Clothing</li>
+                        <li>Shoes</li>
+                        <li>Bedding and towels</li>
+                        <li>Curtains</li>
+                    </ul>
+                    </p1>
                 </div>
             </div>
+            <div class="bin-image col-lg-6" id="bini">
+                <img src="{{ asset('frontend/assets/images/bin.webp') }}" width="710px" alt="Bin">
+            </div>
         </div>
+    </div>
+</section>
+
+
+
+<section class="contact-us" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 align-self-center">
+          <div class="row">
+            <div class="col-lg-12">
+                {{-- Html()->Form('POST', route('contact.action'))->id('contact')->class('')->open() --}}
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>Contact Us</h2>
+                  </div>
+                  <div class="col-lg-4">
+                    <fieldset>
+                      <input name="name" type="text" id="name" placeholder="YOURNAME...*" required>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-4">
+                    <fieldset>
+                    <input name="email" type="text" id="email" pattern="[^ @]*@[^ @]*" placeholder="YOUR EMAIL..." required="">
+                  </fieldset>
+                  </div>
+                  <div class="col-lg-4">
+                    <fieldset>
+                      <input name="subject" type="text" id="subject" placeholder="SUBJECT...*" required="">
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <textarea name="message" type="text" class="form-control" id="message" placeholder="YOUR MESSAGE..." required=""></textarea>
+                    </fieldset>
+                  </div>
+                  <div class="col-lg-12">
+                    <fieldset>
+                      <button type="submit" id="form-submit" class="button">SEND MESSAGE NOW</button>
+                    </fieldset>
+                  </div>
+                </div>
+                {{-- Html()->Form()->close() --}}
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="right-info">
+            <ul>
+              <li>
+                <h6>Phone Number</h6>
+                <span>9876543210</span>
+              </li>
+              <li>
+                <h6>Email Address</h6>
+                <span>info@donate4nepal.org</span>
+              </li>
+              <li>
+                <h6>Street Address</h6>
+                <span>Shankhamul, Kathmandu 44600, Nepal</span>
+              </li>
+              <li>
+                <h6>Website</h6>
+                <span>donate4nepal.org</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
 </section>
 
